@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import '../styles.css/App.css';
 import Soda from './Soda';
 import Chips from './Chips';
 import Sardines from './Sardines';
@@ -14,9 +14,9 @@ class App extends React.Component {
         <Navbar />
         <Switch>
           <Route exact path='/' render={() => <VendingMachine />} />
-          <Route exact path='/Soda' render={() => <Soda />} />
-          <Route exact path='/Chips'render={() => <Chips />} />
-          <Route exact path='/Sardines'render={() => <Sardines />} />
+          <Route exact path='/soda' render={() => <Soda />} />
+          <Route exact path='/chips'render={() => <Chips />} />
+          <Route exact path='/sardines'render={() => <Sardines />} />
         </Switch>
       </div>
     );

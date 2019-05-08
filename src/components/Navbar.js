@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import './Navbar.css'
+import '../styles.css/Navbar.css'
 
 class Navbar extends React.Component {
   render() {
@@ -9,13 +9,13 @@ class Navbar extends React.Component {
         <NavLink exact activeClassName='Navbar-active' to='/'>
          Vending Machine
         </NavLink>
-        <NavLink exact activeClassName='Navbar-active' to='/Chips'>
+        <NavLink exact activeClassName='Navbar-active' to='/chips'>
           Chips
         </NavLink>
-        <NavLink exact activeClassName='Navbar-active' to='/Soda'>
+        <NavLink exact activeClassName='Navbar-active' to='/soda'>
           Soda
         </NavLink>
-        <NavLink exact activeClassName='Navbar-active' to='/Sardines'>
+        <NavLink exact activeClassName='Navbar-active' to='/sardines'>
           Sardines
         </NavLink>
       </div>
