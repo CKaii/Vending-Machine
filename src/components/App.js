@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles.css/App.css';
+import '../css/App.css';
 import Soda from './Soda';
 import Chips from './Chips';
 import Sardines from './Sardines';

@@ -1,6 +1,6 @@
 import React from 'react';
 import Message from './Message'
-import '../styles.css/Sardines.css'
+import '../css/Sardines.css'
 import { Link } from 'react-router-dom';
 
 class Sardines extends React.Component {

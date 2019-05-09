@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles.css/Message.css'
+import '../css/Message.css'
 
 class Message extends React.Component {
   render () {
